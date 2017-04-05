@@ -1,0 +1,115 @@
+body {
+  color: white;
+  background-color: turquoise;
+  font-family: 'Raleway', sans-serif;
+}
+
+#boxBox{
+  position: relative;
+  left: 50%;
+  margin-left: -150px;
+  
+    
+}
+
+h1{
+  display: block;
+  position: relative;
+  top: 5px;
+  left: 30px;
+  font-family: 'Fascinate Inline', cursive;
+
+}
+
+#dummies{
+  display: block;
+  position: absolute;
+  left: 230px;
+  top: 43px;
+  font-size: .3em;
+  
+}
+
+#box {
+  display: block;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 160px;
+  
+}
+
+.boxes {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  width: 32.3%;
+  height: 32.3%;
+  border-radius: 4px;
+  background-color: #2071e8;
+  font-size: 65px;
+}
+
+.boxes:active {
+  
+  box-shadow: inset 0px 2px 15px navy;
+}
+
+#A1 {}
+#A2 {left: 33%;}
+#A3 {left: 66%;}
+#B1 {top: 33%}
+#B2 {left: 33%; top: 33%;}
+#B3 {left: 66%; top: 33%;}
+#C1 {top: 66%}
+#C2 {left: 33%; top: 66%;}
+#C3 {left: 66%; top: 66%;}
+
+.letter {
+  display: inline-block;
+  width: 145px;
+  height: 50px;
+  background-color: purple;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  
+}
+
+.letter:active {
+  
+  box-shadow: inset 0px 2px 15px navy;
+}
+
+#message {
+  position: absolute;
+  width: 300px;
+  margin-top: 10px;
+  text-align:center;
+}
+
+#message span{
+  text-decoration: line-through;
+}
+
+#quotes{
+  width: 320px;
+  position: relative;
+  top: 370px;
+  left: -3px;
+  font-size: 1.3em;
+  font-style: oblique;
+  font-family: 'Indie Flower', cursive;
+  
+}
+
+.author {
+  position: relative;
+  left: 50%;
+  font-size: 1em;
+  top: -17px;
+  font-style: bold;
+  font-weight: 900;
+  
+}
